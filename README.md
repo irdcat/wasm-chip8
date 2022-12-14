@@ -9,7 +9,7 @@ Chip8 emulator compiled to WebAssembly
 
 ## Wasm-pack
 
-Wasm-pack is the tool automating WebAssembly packaging provided by rustwasm team. It can be easily installed using following command
+Wasm-pack is the tool automating WebAssembly packaging provided by rustwasm team. It can be easily installed using following command:
 ```
 cargo install wasm-pack
 ``` 
