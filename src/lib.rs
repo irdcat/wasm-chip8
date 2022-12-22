@@ -1,11 +1,10 @@
+mod chip8;
+
+use chip8::Chip8;
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-extern {
-    pub fn alert(s: &str);
-}
-
-#[wasm_bindgen]
-pub fn say_hi() {
-    alert("Hello from rust")
+pub fn run() {
+    let mut chip8 = Chip8::new();
+    chip8.execute_instruction();
 }
